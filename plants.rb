@@ -1,0 +1,7 @@
+gets_sunshine = true
+ounces_of_water = 6
+if ounces_of_water >= 10 and gets_sunshine == true
+puts "Plant will thrive"
+else ounces_of_water <= 9 or gets_sunshine == false
+    puts "Plant will die"
+end
